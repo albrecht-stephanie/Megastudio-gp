@@ -1,0 +1,50 @@
+/**Carroussel et barre de nav**/
+
+/**Texte de présentation et bloc info-news**/
+.containerText
+{
+  width: 90%;
+  height: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin:auto;
+  padding: 0 2% 2% 2%;
+  text-align: justify;
+}
+h1, h2
+{
+  text-align: center;
+}
+#welcome, #news
+{
+  padding: 0 2% 0 2%;
+  margin-top: 2%;
+  background-color: rgba(224, 222, 222, 0.5);
+}
+#welcome
+{
+  width: 35%;
+  border-left: 6px solid purple;
+  box-shadow: 4px 4px 4px grey;
+  border-radius: 0 0 10px 0 ;
+}
+#news
+{
+  width: 20%;
+  border-left: 6px solid orange;
+  box-shadow: 4px 4px 4px grey;
+  border-radius: 0 0 10px 0 ;
+}
+
+/** redimensionner la photo
+#picture
+{
+  background: no-repeat url(../img/mix.png);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  margin: auto;
+}**/
+
+/**Footer avec les différents liens et icones**/
